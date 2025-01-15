@@ -1,0 +1,52 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node10_1 [style=filled, color="#C6E2EB" label = "तस्मिन्(10.1)"]
+Node12_1 [style=filled, color="#C6E2EB" label = "पर्वते(12.1)"]
+
+}
+Node1_1 [style=filled, color="#FF99FF" label = "ततः(1.1)"]
+Node3_1 [style=filled, color="#FF99FF" label = "सम्प्राप्य(3.1)"]
+Node2_1 [style=filled, color="#FF99FF" label = "तु(2.1)"]
+Node5_1 [style=filled, color="#FF99FF" label = "समीक्ष्य(5.1)"]
+Node4_1 [style=filled, color="#FFFF00" label = "समुद्र-(4.1)"]
+Node4_2 [style=filled, color="#93DB70" label = "तीरम्(4.2)"]
+Node11_1 [style=filled, color="#FF1975" label = "निपपात(11.1)"]
+Node6_1 [style=filled, color="#93DB70" label = "लङ्काम्(6.1)"]
+Node7_1 [style=filled, color="#FFFF00" label = "गिरि-(7.1)"]
+Node7_2 [style=filled, color="#FFFF00" label = "वर्य-(7.2)"]
+Node7_3 [style=filled, color="#C6E2EB" label = "मूर्ध्नि(7.3)"]
+Node8_1 [style=filled, color="#00BFFF" label = "कपिः(8.1)"]
+Node9_1 [style=filled, color="#FF99FF" label = "तु(9.1)"]
+Node [style=filled, color="" label = "()"]
+Node12_1 [style=filled, color="#C6E2EB" label = "पर्वते(12.1)"]
+Node13_1 [style=filled, color="#FF99FF" label = "विधूय(13.1)"]
+Node14_1 [style=filled, color="#93DB70" label = "रूपम्(14.1)"]
+Node15_1 [style=filled, color="#00BFFF" label = "व्यथयन्(15.1)"]
+Node16_1 [style=filled, color="#FFFF00" label = "मृग-(16.1)"]
+Node16_2 [style=filled, color="#93DB70" label = "द्विजान्(16.2)"]
+/* Start of Relations section */
+
+Node1_1 -> Node3_1 [  label="कालाधिकरणम्"  dir="back" ]
+Node2_1 -> Node3_1 [  label="सम्बन्धः"  dir="back" ]
+Node3_1 -> Node5_1 [  label="पूर्वकालः"  dir="back" ]
+Node4_1 -> Node4_2 [  label="षष्ठी_तत्पुरुषः"  dir="back" ]
+Node4_2 -> Node3_1 [  label="कर्म"  dir="back" ]
+Node5_1 -> Node11_1 [  label="पूर्वकालः"  dir="back" ]
+Node6_1 -> Node5_1 [  label="कर्म"  dir="back" ]
+Node7_1 -> Node7_2 [  label="सप्तमी_तत्पुरुषः"  dir="back" ]
+Node7_2 -> Node7_3 [  label="षष्ठी_तत्पुरुषः"  dir="back" ]
+Node7_3 -> Node6_1 [  label="देशाधिकरणम्"  dir="back" ]
+Node8_1 -> Node11_1 [  label="कर्ता"  dir="back" ]
+Node9_1 -> Node11_1 [  label="सम्बन्धः"  dir="back" ]
+Node10_1 -> Node12_1 [  label="विशेषणम्"  dir="back" ]
+Node12_1 -> Node11_1 [  label="देशाधिकरणम्"  dir="back" ]
+Node13_1 -> Node11_1 [  label="पूर्वकालः"  dir="back" ]
+Node14_1 -> Node13_1 [  label="कर्म"  dir="back" ]
+Node15_1 -> Node11_1 [  label="वर्तमानसमानकालः"  dir="back" ]
+Node16_1 -> Node16_2 [  label="द्वन्द्वः"  dir="back" ]
+Node16_2 -> Node15_1 [  label="कर्म"  dir="back" ]
+}

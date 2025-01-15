@@ -1,0 +1,27 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+Node1_1 [style=filled, color="#87CEEB" label = "सर्वेषाम्(1.1)"]
+Node3_1 [style=filled, color="#93DB70" label = "भवनानि(3.1)"]
+Node2_1 [style=filled, color="#FF99FF" label = "समतिक्रम्य(2.1)"]
+Node5_1 [style=filled, color="#FF1975" label = "आससाद(5.1)"]
+Node4_1 [style=filled, color="#FF99FF" label = "समन्ततः(4.1)"]
+Node [style=filled, color="" label = "()"]
+Node6_1 [style=filled, color="#FF99FF" label = "अथ(6.1)"]
+Node7_1 [style=filled, color="#00BFFF" label = "लक्ष्मीवान्(7.1)"]
+Node8_1 [style=filled, color="#FFFF00" label = "राक्षस-(8.1)"]
+Node8_2 [style=filled, color="#FFFF00" label = "इन्द्र-(8.2)"]
+Node8_3 [style=filled, color="#93DB70" label = "निवेशनम्(8.3)"]
+/* Start of Relations section */
+
+Node1_1 -> Node3_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node2_1 -> Node5_1 [  label="पूर्वकालः"  dir="back" ]
+Node3_1 -> Node2_1 [  label="कर्म"  dir="back" ]
+Node4_1 -> Node2_1 [  label="देशाधिकरणम्"  dir="back" ]
+Node6_1 -> Node5_1 [  label="सम्बन्धः"  dir="back" ]
+Node7_1 -> Node5_1 [  label="कर्ता"  dir="back" ]
+Node8_1 -> Node8_2 [  label="षष्ठी_तत्पुरुषः"  dir="back" ]
+Node8_2 -> Node8_3 [  label="षष्ठी_तत्पुरुषः"  dir="back" ]
+Node8_3 -> Node5_1 [  label="कर्म"  dir="back" ]
+}

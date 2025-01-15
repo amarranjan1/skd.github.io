@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Welcome to the e-version of सुंदरकांड",
+        "intro":
+        [
+            {
+                "para": "This is an updated version of the सुंदरकांड, an integral part of the रामायणम्. The original version captures essential aspects of the narrative, highlighting key events in the life of Lord Hanuman, from his devotion to Lord Rama to his journey to Lanka to find Sita. Salient features of understanding Sanskrit poetry viz., पद-विभागः (word-separation), अन्वयः (sentence order), पद-परिचयः (word analysis), कारकसम्बन्धः (kāraka relations), सन्धि-विच्छेदः (sandhi-split) etc."
+            },
+            {
+                "para": "The current version follows modern textual analysis and tagging guidelines. The important events, dialogues, and verse structures are better annotated, providing a clearer understanding of the linguistic and narrative flow. New interpretations of key moments and relationships within the story are added to enhance comprehension and clarity."
+            }
+        ]
+    }
+]

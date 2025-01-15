@@ -1,0 +1,48 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node1_1 [style=filled, color="#40E0D0" label = "केन(1.1)"]
+Node2_1 [style=filled, color="#40E0D0" label = "उपायेन(2.1)"]
+
+}
+
+subgraph cluster_2{
+Node5_2 [style=filled, color="#93DB70" label = "आत्मजाम्(5.2)"]
+Node4_1 [style=filled, color="#93DB70" label = "मैथिलीम्(4.1)"]
+
+}
+
+subgraph cluster_3{
+Node7_2 [style=filled, color="#40E0D0" label = "इन्द्रेण(7.2)"]
+Node8_1 [style=filled, color="#40E0D0" label = "रावणेन(8.1)"]
+Node9_2 [style=filled, color="#40E0D0" label = "आत्मना(9.2)"]
+
+}
+Node2_1 [style=filled, color="#40E0D0" label = "उपायेन(2.1)"]
+Node3_1 [style=filled, color="#FF1975" label = "पश्येयम्(3.1)"]
+Node4_1 [style=filled, color="#93DB70" label = "मैथिलीम्(4.1)"]
+Node5_1 [style=filled, color="#FFFF00" label = "जनक-(5.1)"]
+Node5_2 [style=filled, color="#93DB70" label = "आत्मजाम्(5.2)"]
+Node6_1 [style=filled, color="#00BFFF" label = "अदृष्टः(6.1)"]
+Node7_1 [style=filled, color="#FFFF00" label = "राक्षस-(7.1)"]
+Node7_2 [style=filled, color="#40E0D0" label = "इन्द्रेण(7.2)"]
+Node8_1 [style=filled, color="#40E0D0" label = "रावणेन(8.1)"]
+Node9_1 [style=filled, color="#FFFF00" label = "दुरा-(9.1)"]
+Node9_2 [style=filled, color="#40E0D0" label = "आत्मना(9.2)"]
+/* Start of Relations section */
+
+Node1_1 -> Node2_1 [  label="विशेषणम्"  dir="back" ]
+Node2_1 -> Node3_1 [  label="करणम्"  dir="back" ]
+Node4_1 -> Node3_1 [  label="कर्म"  dir="back" ]
+Node5_1 -> Node5_2 [  label="षष्ठी_तत्पुरुषः"  dir="back" ]
+Node5_2 -> Node4_1 [  label="विशेषणम्"  dir="back" ]
+Node6_1 -> Node3_1 [  label="कर्ता"  dir="back" ]
+Node7_1 -> Node7_2 [  label="षष्ठी_तत्पुरुषः"  dir="back" ]
+Node7_2 -> Node8_1 [  label="विशेषणम्"  dir="back" ]
+Node8_1 -> Node6_1 [  label="कर्ता"  dir="back" ]
+Node9_1 -> Node9_2 [  label="बहुव्रीहिः"  dir="back" ]
+Node9_2 -> Node8_1 [  label="विशेषणम्"  dir="back" ]
+}

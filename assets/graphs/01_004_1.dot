@@ -1,0 +1,50 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node9_2 [style=filled, color="#93DB70" label = "बहून्(9.2)"]
+Node7_1 [style=filled, color="#93DB70" label = "मृगान्(7.1)"]
+
+}
+
+subgraph cluster_2{
+Node11_1 [style=filled, color="#00BFFF" label = "प्रवृद्धः(11.1)"]
+Node3_1 [style=filled, color="#00BFFF" label = "धीमान्(3.1)"]
+
+}
+Node1_1 [style=filled, color="#93DB70" label = "द्विजान्(1.1)"]
+Node2_1 [style=filled, color="#00BFFF" label = "वित्रासयन्(2.1)"]
+Node14_1 [style=filled, color="#FF1975" label = "(विचचार)(14.1)"]
+Node3_1 [style=filled, color="#00BFFF" label = "धीमान्(3.1)"]
+Node6_1 [style=filled, color="#00BFFF" label = "हरन्(6.1)"]
+Node10_1 [style=filled, color="#00BFFF" label = "निघ्नन्(10.1)"]
+Node4_1 [style=filled, color="#40E0D0" label = "उरसा(4.1)"]
+Node5_1 [style=filled, color="#FFFF00" label = "पादपान्(5.1)"]
+Node7_1 [style=filled, color="#93DB70" label = "मृगान्(7.1)"]
+Node8_1 [style=filled, color="#FF99FF" label = "च(8.1)"]
+Node9_1 [style=filled, color="#FFFF00" label = "सु-(9.1)"]
+Node9_2 [style=filled, color="#93DB70" label = "बहून्(9.2)"]
+Node12_1 [style=filled, color="#FF99FF" label = "इव(12.1)"]
+Node13_1 [style=filled, color="#00BFFF" label = "केसरी(13.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node2_1 [  label="कर्म"  dir="back" ]
+Node2_1 -> Node14_1 [  label="वर्तमानसमानकालः"  dir="back" ]
+Node3_1 -> Node14_1 [  label="कर्ता"  dir="back" ]
+Node3_1 -> Node2_1 [ style=dotted label="कर्ता"  dir="back" ]
+Node3_1 -> Node6_1 [ style=dotted label="कर्ता"  dir="back" ]
+Node3_1 -> Node10_1 [ style=dotted label="कर्ता"  dir="back" ]
+Node4_1 -> Node6_1 [  label="करणम्"  dir="back" ]
+Node5_1 -> Node6_1 [  label="कर्म"  dir="back" ]
+Node6_1 -> Node14_1 [  label="वर्तमानसमानकालः"  dir="back" ]
+Node7_1 -> Node10_1 [  label="कर्म"  dir="back" ]
+Node8_1 -> Node7_1 [  label="समुच्चय_द्योतकः"  dir="back" ]
+Node9_1 -> Node9_2 [  label="बहुव्रीहिः"  dir="back" ]
+Node9_2 -> Node7_1 [  label="विशेषणम्"  dir="back" ]
+Node10_1 -> Node14_1 [  label="वर्तमानसमानकालः"  dir="back" ]
+Node11_1 -> Node3_1 [  label="विशेषणम्"  dir="back" ]
+Node12_1 -> Node14_1 [  label="उपमान_द्योतकः"  dir="back" ]
+Node13_1 -> Node12_1 [  label="उपमानम्"  dir="back" ]
+}

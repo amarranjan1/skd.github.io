@@ -1,0 +1,53 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node1_3 [style=filled, color="#93DB70" label = "गतम्(1.3)"]
+Node4_2 [style=filled, color="#93DB70" label = "भाजनम्(4.2)"]
+Node3_1 [style=filled, color="#93DB70" label = "हैमम्(3.1)"]
+
+}
+
+subgraph cluster_2{
+Node7_2 [style=filled, color="#00BFFF" label = "अर्हाणि(7.2)"]
+Node5_1 [style=filled, color="#93DB70" label = "पात्राणि(5.1)"]
+
+}
+
+subgraph cluster_3{
+Node10_1 [style=filled, color="#93DB70" label = "हिरण्मयान्(10.1)"]
+Node8_1 [style=filled, color="#93DB70" label = "करकान्(8.1)"]
+
+}
+Node1_1 [style=filled, color="#FFFF00" label = "पान-(1.1)"]
+Node1_2 [style=filled, color="#FFFF00" label = "भूमि-(1.2)"]
+Node1_3 [style=filled, color="#93DB70" label = "गतम्(1.3)"]
+Node2_1 [style=filled, color="#FF99FF" label = "हित्वा(2.1)"]
+Node11_1 [style=filled, color="#FF1975" label = "(उत्पेतुः)(11.1)"]
+Node4_1 [style=filled, color="#FFFF00" label = "आसव-(4.1)"]
+Node4_2 [style=filled, color="#93DB70" label = "भाजनम्(4.2)"]
+Node5_1 [style=filled, color="#93DB70" label = "पात्राणि(5.1)"]
+Node6_1 [style=filled, color="#FF99FF" label = "च(6.1)"]
+Node7_1 [style=filled, color="#FFFF00" label = "महा-(7.1)"]
+Node7_2 [style=filled, color="#00BFFF" label = "अर्हाणि(7.2)"]
+Node8_1 [style=filled, color="#93DB70" label = "करकान्(8.1)"]
+Node9_1 [style=filled, color="#FF99FF" label = "च(9.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node1_2 [  label="षष्ठी_तत्पुरुषः"  dir="back" ]
+Node1_2 -> Node1_3 [  label="तत्पुरुषः"  dir="back" ]
+Node1_3 -> Node4_2 [  label="विशेषणम्"  dir="back" ]
+Node2_1 -> Node11_1 [  label="पूर्वकालः"  dir="back" ]
+Node3_1 -> Node4_2 [  label="विशेषणम्"  dir="back" ]
+Node4_1 -> Node4_2 [  label="षष्ठी_तत्पुरुषः"  dir="back" ]
+Node4_2 -> Node2_1 [  label="कर्म"  dir="back" ]
+Node5_1 -> Node2_1 [  label="कर्म"  dir="back" ]
+Node6_1 -> Node2_1 [  label="सम्बन्धः"  dir="back" ]
+Node7_1 -> Node7_2 [  label="बहुव्रीहिः"  dir="back" ]
+Node7_2 -> Node5_1 [  label="विशेषणम्"  dir="back" ]
+Node8_1 -> Node2_1 [  label="कर्म"  dir="back" ]
+Node9_1 -> Node11_1 [  label="सम्बन्धः"  dir="back" ]
+Node10_1 -> Node8_1 [  label="विशेषणम्"  dir="back" ]
+}

@@ -1,0 +1,48 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node1_3 [style=filled, color="#93DB70" label = "निबद्धान्(1.3)"]
+Node6_2 [style=filled, color="#93DB70" label = "पान्(6.2)"]
+Node4_1 [style=filled, color="#93DB70" label = "मुकुलितान्(4.1)"]
+Node7_2 [style=filled, color="#93DB70" label = "आकीर्णान्(7.2)"]
+Node8_3 [style=filled, color="#93DB70" label = "मस्तकान्(8.3)"]
+
+}
+Node1_1 [style=filled, color="#FFFF00" label = "पुष्प-(1.1)"]
+Node1_2 [style=filled, color="#FFFF00" label = "भार-(1.2)"]
+Node1_3 [style=filled, color="#93DB70" label = "निबद्धान्(1.3)"]
+Node2_1 [style=filled, color="#FF99FF" label = "च(2.1)"]
+Node10_1 [style=filled, color="#FF1975" label = "(ददर्श)(10.1)"]
+Node3_1 [style=filled, color="#FF99FF" label = "तथा(3.1)"]
+Node5_1 [style=filled, color="#FF99FF" label = "अपि(5.1)"]
+Node6_1 [style=filled, color="#FFFF00" label = "पाद-(6.1)"]
+Node6_2 [style=filled, color="#93DB70" label = "पान्(6.2)"]
+Node7_1 [style=filled, color="#FFFF00" label = "विहग-(7.1)"]
+Node7_2 [style=filled, color="#93DB70" label = "आकीर्णान्(7.2)"]
+Node8_1 [style=filled, color="#FFFF00" label = "पवन-(8.1)"]
+Node8_2 [style=filled, color="#FFFF00" label = "आधूत-(8.2)"]
+Node8_3 [style=filled, color="#93DB70" label = "मस्तकान्(8.3)"]
+Node9_1 [style=filled, color="#FFFF00" label = "कपि-(9.1)"]
+Node9_2 [style=filled, color="#00BFFF" label = "कुञ्जरः(9.2)"]
+/* Start of Relations section */
+
+Node1_1 -> Node1_2 [  label="षष्ठी_तत्पुरुषः"  dir="back" ]
+Node1_2 -> Node1_3 [  label="तृतीया_तत्पुरुषः"  dir="back" ]
+Node1_3 -> Node6_2 [  label="विशेषणम्"  dir="back" ]
+Node2_1 -> Node10_1 [  label="सम्बन्धः"  dir="back" ]
+Node3_1 -> Node10_1 [  label="सम्बन्धः"  dir="back" ]
+Node4_1 -> Node6_2 [  label="विशेषणम्"  dir="back" ]
+Node5_1 -> Node10_1 [  label="सम्बन्धः"  dir="back" ]
+Node6_1 -> Node6_2 [  label="उपपद_तत्पुरुषः"  dir="back" ]
+Node6_2 -> Node10_1 [  label="कर्म"  dir="back" ]
+Node7_1 -> Node7_2 [  label="तृतीया_तत्पुरुषः"  dir="back" ]
+Node7_2 -> Node6_2 [  label="विशेषणम्"  dir="back" ]
+Node8_1 -> Node8_2 [  label="तृतीया_तत्पुरुषः"  dir="back" ]
+Node8_2 -> Node8_3 [  label="बहुव्रीहिः"  dir="back" ]
+Node8_3 -> Node6_2 [  label="विशेषणम्"  dir="back" ]
+Node9_1 -> Node9_2 [  label="कर्मधारयः"  dir="back" ]
+Node9_2 -> Node10_1 [  label="कर्ता"  dir="back" ]
+}

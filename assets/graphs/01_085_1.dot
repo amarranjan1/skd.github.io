@@ -1,0 +1,41 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node1_1 [style=filled, color="#C6E2EB" label = "तस्मिन्(1.1)"]
+Node4_1 [style=filled, color="#C6E2EB" label = "हनूमति(4.1)"]
+Node2_2 [style=filled, color="#C6E2EB" label = "शार्दूले(2.2)"]
+Node3_1 [style=filled, color="#C6E2EB" label = "प्लवमाने(3.1)"]
+
+}
+
+subgraph cluster_2{
+Node5_4 [style=filled, color="#00BFFF" label = "अर्थी(5.4)"]
+Node7_1 [style=filled, color="#00BFFF" label = "सागरः(7.1)"]
+
+}
+Node2_1 [style=filled, color="#FFFF00" label = "प्लवग-(2.1)"]
+Node2_2 [style=filled, color="#C6E2EB" label = "शार्दूले(2.2)"]
+Node4_1 [style=filled, color="#C6E2EB" label = "हनूमति(4.1)"]
+Node6_1 [style=filled, color="#FF1975" label = "चिन्तयामास(6.1)"]
+Node5_1 [style=filled, color="#FFFF00" label = "इक्ष्वाकु-(5.1)"]
+Node5_2 [style=filled, color="#FFFF00" label = "कुल-(5.2)"]
+Node5_3 [style=filled, color="#FFFF00" label = "मान-(5.3)"]
+Node5_4 [style=filled, color="#00BFFF" label = "अर्थी(5.4)"]
+Node [style=filled, color="" label = "()"]
+Node7_1 [style=filled, color="#00BFFF" label = "सागरः(7.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node4_1 [  label="विशेषणम्"  dir="back" ]
+Node2_1 -> Node2_2 [  label="सप्तमी_तत्पुरुषः"  dir="back" ]
+Node2_2 -> Node4_1 [  label="विशेषणम्"  dir="back" ]
+Node3_1 -> Node4_1 [  label="विशेषणम्"  dir="back" ]
+Node4_1 -> Node6_1 [  label="भावलक्षणसप्तमी_समानकालः"  dir="back" ]
+Node5_1 -> Node5_2 [  label="षष्ठी_तत्पुरुषः"  dir="back" ]
+Node5_2 -> Node5_3 [  label="षष्ठी_तत्पुरुषः"  dir="back" ]
+Node5_3 -> Node5_4 [  label="बहुव्रीहिः"  dir="back" ]
+Node5_4 -> Node7_1 [  label="विशेषणम्"  dir="back" ]
+Node7_1 -> Node6_1 [  label="कर्ता"  dir="back" ]
+}

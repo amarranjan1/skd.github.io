@@ -1,0 +1,47 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node2_1 [style=filled, color="#00BFFF" label = "अयम्(2.1)"]
+Node3_1 [style=filled, color="#00BFFF" label = "गिरिः(3.1)"]
+
+}
+
+subgraph cluster_2{
+Node7_1 [style=filled, color="#00BFFF" label = "तपस्विनः(7.1)"]
+Node9_2 [style=filled, color="#00BFFF" label = "धराः(9.2)"]
+Node8_1 [style=filled, color="#00BFFF" label = "त्रस्ताः(8.1)"]
+
+}
+Node1_1 [style=filled, color="#FF1975" label = "भिद्यते(1.1)"]
+Node6_1 [style=filled, color="#FF99FF" label = "मत्वा(6.1)"]
+Node3_1 [style=filled, color="#00BFFF" label = "गिरिः(3.1)"]
+Node4_1 [style=filled, color="#40E0D0" label = "भूतैः(4.1)"]
+Node5_1 [style=filled, color="#FF99FF" label = "इति(5.1)"]
+Node11_1 [style=filled, color="#FF1975" label = "उत्पेतुः(11.1)"]
+Node9_1 [style=filled, color="#FFFF00" label = "विद्या-(9.1)"]
+Node9_2 [style=filled, color="#00BFFF" label = "धराः(9.2)"]
+Node10_1 [style=filled, color="#B4FFB4" label = "तस्मात्(10.1)"]
+Node [style=filled, color="" label = "()"]
+Node12_1 [style=filled, color="#FFFF00" label = "स्त्री-(12.1)"]
+Node12_2 [style=filled, color="#40E0D0" label = "गणैः(12.2)"]
+Node13_1 [style=filled, color="#FF99FF" label = "सह(13.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node6_1 [  label="वाक्यकर्म"  dir="back" ]
+Node2_1 -> Node3_1 [  label="विशेषणम्"  dir="back" ]
+Node3_1 -> Node1_1 [  label="कर्म"  dir="back" ]
+Node4_1 -> Node1_1 [  label="कर्ता"  dir="back" ]
+Node5_1 -> Node6_1 [  label="वाक्यकर्म_द्योतकः"  dir="back" ]
+Node6_1 -> Node11_1 [  label="पूर्वकालः"  dir="back" ]
+Node7_1 -> Node9_2 [  label="विशेषणम्"  dir="back" ]
+Node8_1 -> Node9_2 [  label="विशेषणम्"  dir="back" ]
+Node9_1 -> Node9_2 [  label="तत्पुरुषः"  dir="back" ]
+Node9_2 -> Node11_1 [  label="कर्ता"  dir="back" ]
+Node10_1 -> Node11_1 [  label="अपादानम्"  dir="back" ]
+Node12_1 -> Node12_2 [  label="षष्ठी_तत्पुरुषः"  dir="back" ]
+Node12_2 -> Node11_1 [  label="सहार्थः"  dir="back" ]
+Node13_1 -> Node12_2 [  label="सहार्थ_द्योतकः"  dir="back" ]
+}
