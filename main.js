@@ -20732,7 +20732,7 @@
                   Ai(35, "li", 1),
                   Ai(36, "div", 12),
                   Ai(37, "h4", 13),
-                  qi( 38, "Sundara Kanda",
+                  qi( 38, "Sundarakāṇḍam",
                   ),
                   Ti(),
                   Ei(39, "img", 14),
