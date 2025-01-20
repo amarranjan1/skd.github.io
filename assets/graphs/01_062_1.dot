@@ -5,7 +5,7 @@ rankdir=BT;
 
 subgraph cluster_1{
 Node3_1 [style=filled, color="#87CEEB" label = "प्लवमानस्य(3.1)"]
-Node3_1 [style=filled, color="#87CEEB" label = "प्लवमानस्य(3.1)"]
+Node2_2 [style=filled, color="#87CEEB" label = "सिंहस्य(2.2)"]
 
 }
 
@@ -31,7 +31,7 @@ Node8_1 [style=filled, color="#FF99FF" label = "इव(8.1)"]
 Node1_1 -> Node5_3 [  label="षष्ठीसम्बन्धः"  dir="back" ]
 Node2_1 -> Node2_2 [  label="सप्तमी_तत्पुरुषः"  dir="back" ]
 Node2_2 -> Node5_3 [  label="षष्ठीसम्बन्धः"  dir="back" ]
-Node3_1 -> Node3_1 [  label="विशेषणम्"  dir="back" ]
+Node3_1 -> Node2_2 [  label="विशेषणम्"  dir="back" ]
 Node4_1 -> Node3_1 [  label="कर्म"  dir="back" ]
 Node5_1 -> Node5_2 [  label="द्वितीया_तत्पुरुषः"  dir="back" ]
 Node5_2 -> Node5_3 [  label="तत्पुरुषः"  dir="back" ]

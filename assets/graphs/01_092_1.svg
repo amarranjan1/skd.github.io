@@ -61,7 +61,7 @@
 <!-- Node15_1 -->
 <g id="node9" class="node">
 <title>Node15_1</title>
-<ellipse fill="lightgrey" stroke="black" cx="544" cy="-295" rx="84.49" ry="18"/>
+<ellipse fill="#ff1975" stroke="#ff1975" cx="544" cy="-295" rx="84.49" ry="18"/>
 <text text-anchor="middle" x="544" y="-291.3" font-family="Times,serif" font-size="14.00">अस्ति(15.1)</text>
 </g>
 <!-- Node8_1&#45;&gt;Node15_1 -->
@@ -183,7 +183,7 @@
 <!-- Node13_2 -->
 <g id="node16" class="node">
 <title>Node13_2</title>
-<ellipse fill="#6fffc3" stroke="#6fffc3" cx="1305" cy="-121" rx="93.68" ry="18"/>
+<ellipse fill="#00bfff" stroke="#00bfff" cx="1305" cy="-121" rx="93.68" ry="18"/>
 <text text-anchor="middle" x="1305" y="-117.3" font-family="Times,serif" font-size="14.00">सत्तमः(13.2)</text>
 </g>
 <!-- Node13_1&#45;&gt;Node13_2 -->

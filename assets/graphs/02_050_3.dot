@@ -1,0 +1,49 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node5_2 [style=filled, color="#93DB70" label = "पालिताम्(5.2)"]
+Node4_1 [style=filled, color="#93DB70" label = "पुरीम्(4.1)"]
+
+}
+
+subgraph cluster_2{
+Node9_1 [style=filled, color="#93DB70" label = "यानि(9.1)"]
+Node7_2 [style=filled, color="#93DB70" label = "कार्याणि(7.2)"]
+
+}
+Node1_1 [style=filled, color="#93DB70" label = "तत्(1.1)"]
+Node2_1 [style=filled, color="#FF99FF" label = "प्रविश्य(2.1)"]
+Node6_1 [style=filled, color="#FF1975" label = "विधत्स्व(6.1)"]
+Node3_1 [style=filled, color="#FFFF00" label = "हरि-(3.1)"]
+Node3_2 [style=filled, color="#6FFFC3" label = "श्रेष्ठ(3.2)"]
+Node4_1 [style=filled, color="#93DB70" label = "पुरीम्(4.1)"]
+Node5_1 [style=filled, color="#FFFF00" label = "रावण-(5.1)"]
+Node5_2 [style=filled, color="#93DB70" label = "पालिताम्(5.2)"]
+Node7_1 [style=filled, color="#FFFF00" label = "सर्व-(7.1)"]
+Node7_2 [style=filled, color="#93DB70" label = "कार्याणि(7.2)"]
+Node11_1 [style=filled, color="#FF1975" label = "वाञ्छसि(11.1)"]
+Node8_1 [style=filled, color="#93DB70" label = "यानि(8.1)"]
+Node9_1 [style=filled, color="#93DB70" label = "यानि(9.1)"]
+Node12_1 [style=filled, color="#93DB70" label = "(तानि)(12.1)"]
+Node10_1 [style=filled, color="#FF99FF" label = "इह(10.1)"]
+{rank = same; Node9_1; Node12_1;}
+/* Start of Relations section */
+
+Node1_1 -> Node2_1 [  label="सम्बन्धः"  dir="back" ]
+Node2_1 -> Node6_1 [  label="पूर्वकालः"  dir="back" ]
+Node3_1 -> Node3_2 [  label="सप्तमी_तत्पुरुषः"  dir="back" ]
+Node3_2 -> Node6_1 [  label="सम्बोध्यः"  dir="back" ]
+Node4_1 -> Node2_1 [  label="कर्म"  dir="back" ]
+Node5_1 -> Node5_2 [  label="तृतीया_तत्पुरुषः"  dir="back" ]
+Node5_2 -> Node4_1 [  label="विशेषणम्"  dir="back" ]
+Node7_1 -> Node7_2 [  label="कर्मधारयः"  dir="back" ]
+Node7_2 -> Node11_1 [  label="कर्म"  dir="back" ]
+Node8_1 -> Node9_1 [  label="वीप्सा"  dir="back" ]
+Node9_1 -> Node7_2 [  label="विशेषणम्"  dir="back" ]
+Node9_1 -> Node12_1 [ style=dashed color="red" label="नित्यसम्बन्धः"  dir="both" ]
+Node10_1 -> Node11_1 [  label="देशाधिकरणम्"  dir="back" ]
+Node12_1 -> Node6_1 [  label="कर्म"  dir="back" ]
+}
