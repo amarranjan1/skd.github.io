@@ -1,0 +1,55 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node4_2 [style=filled, color="#93DB70" label = "गामिनम्(4.2)"]
+Node15_1 [style=filled, color="#93DB70" label = "(विमानम्)(15.1)"]
+Node5_1 [style=filled, color="#93DB70" label = "दुरासदम्(5.1)"]
+Node6_3 [style=filled, color="#93DB70" label = "गामिनम्(6.3)"]
+
+}
+Node1_1 [style=filled, color="#93DB70" label = "मनः(1.1)"]
+Node2_1 [style=filled, color="#FF99FF" label = "समाधाय(2.1)"]
+Node4_2 [style=filled, color="#93DB70" label = "गामिनम्(4.2)"]
+Node3_1 [style=filled, color="#FF99FF" label = "तु(3.1)"]
+Node4_1 [style=filled, color="#FFFF00" label = "शीघ्र-(4.1)"]
+Node6_1 [style=filled, color="#FFFF00" label = "मारुत-(6.1)"]
+Node6_2 [style=filled, color="#FFFF00" label = "तुल्य-(6.2)"]
+Node6_3 [style=filled, color="#93DB70" label = "गामिनम्(6.3)"]
+Node7_1 [style=filled, color="#FFFF00" label = "महा-(7.1)"]
+Node7_2 [style=filled, color="#87CEEB" label = "आत्मनाम्(7.2)"]
+Node13_1 [style=filled, color="#93DB70" label = "आलयम्(13.1)"]
+Node8_1 [style=filled, color="#FFFF00" label = "पुण्य-(8.1)"]
+Node8_2 [style=filled, color="#87CEEB" label = "कृताम्(8.2)"]
+Node9_1 [style=filled, color="#FFFF00" label = "महा-(9.1)"]
+Node9_2 [style=filled, color="#87CEEB" label = "ऋद्धिनाम्(9.2)"]
+Node10_1 [style=filled, color="#87CEEB" label = "यशस्विनाम्(10.1)"]
+Node11_1 [style=filled, color="#87CEEB" label = "अग्र्यमुदाम्(11.1)"]
+Node12_1 [style=filled, color="#FF99FF" label = "इव(12.1)"]
+Node15_1 [style=filled, color="#93DB70" label = "(विमानम्)(15.1)"]
+Node14_1 [style=filled, color="#FF1975" label = "(ददर्श)(14.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node2_1 [  label="कर्म"  dir="back" ]
+Node2_1 -> Node4_2 [  label="पूर्वकालः"  dir="back" ]
+Node3_1 -> Node2_1 [  label="सम्बन्धः"  dir="back" ]
+Node4_1 -> Node4_2 [  label="उपपद_तत्पुरुषः"  dir="back" ]
+Node4_2 -> Node15_1 [  label="विशेषणम्"  dir="back" ]
+Node5_1 -> Node15_1 [  label="विशेषणम्"  dir="back" ]
+Node6_1 -> Node6_2 [  label="तृतीया_तत्पुरुषः"  dir="back" ]
+Node6_2 -> Node6_3 [  label="उपपद_तत्पुरुषः"  dir="back" ]
+Node6_3 -> Node15_1 [  label="विशेषणम्"  dir="back" ]
+Node7_1 -> Node7_2 [  label="बहुव्रीहिः"  dir="back" ]
+Node7_2 -> Node13_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node8_1 -> Node8_2 [  label="उपपद_तत्पुरुषः"  dir="back" ]
+Node8_2 -> Node13_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node9_1 -> Node9_2 [  label="बहुव्रीहिः"  dir="back" ]
+Node9_2 -> Node13_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node10_1 -> Node13_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node11_1 -> Node13_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node12_1 -> Node15_1 [  label="उपमान_द्योतकः"  dir="back" ]
+Node13_1 -> Node15_1 [  label="उपमानम्"  dir="back" ]
+Node15_1 -> Node14_1 [  label="कर्म"  dir="back" ]
+}

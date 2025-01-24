@@ -231,7 +231,7 @@
 <!-- Node3_2 -->
 <g id="node17" class="node">
 <title>Node3_2</title>
-<ellipse fill="lightgrey" stroke="black" cx="1777" cy="-121" rx="72.29" ry="18"/>
+<ellipse fill="#ffff00" stroke="#ffff00" cx="1777" cy="-121" rx="72.29" ry="18"/>
 <text text-anchor="middle" x="1777" y="-117.3" font-family="Times,serif" font-size="14.00">आगार&#45;(3.2)</text>
 </g>
 <!-- Node3_1&#45;&gt;Node3_2 -->

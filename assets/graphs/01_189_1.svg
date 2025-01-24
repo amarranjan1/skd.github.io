@@ -75,7 +75,7 @@
 <!-- Node8_1 -->
 <g id="node10" class="node">
 <title>Node8_1</title>
-<ellipse fill="#93db70" stroke="#93db70" cx="586" cy="-208" rx="69.59" ry="18"/>
+<ellipse fill="#00bfff" stroke="#00bfff" cx="586" cy="-208" rx="69.59" ry="18"/>
 <text text-anchor="middle" x="586" y="-204.3" font-family="Times,serif" font-size="14.00">हतम्(8.1)</text>
 </g>
 <!-- Node6_1&#45;&gt;Node8_1 -->

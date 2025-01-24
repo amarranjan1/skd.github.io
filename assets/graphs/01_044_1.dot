@@ -5,7 +5,7 @@ rankdir=BT;
 
 subgraph cluster_1{
 Node2_2 [style=filled, color="#93DB70" label = "कोयष्टिभकान्(2.2)"]
-Node3_1 [style=filled, color="#FFFF00" label = "पादपान्(3.1)"]
+Node3_1 [style=filled, color="#93DB70" label = "पादपान्(3.1)"]
 Node4_2 [style=filled, color="#93DB70" label = "शालिनः(4.2)"]
 
 }
@@ -17,9 +17,9 @@ Node9_1 [style=filled, color="#C6E2EB" label = "अम्बरे(9.1)"]
 }
 Node1_1 [style=filled, color="#00BFFF" label = "सः(1.1)"]
 Node7_1 [style=filled, color="#FF1975" label = "जगाम(7.1)"]
-Node2_1 [style=filled, color="#FFFF00" label = "मत्त(2.1)"]
+Node2_1 [style=filled, color="#FFFF00" label = "मत्त-(2.1)"]
 Node2_2 [style=filled, color="#93DB70" label = "कोयष्टिभकान्(2.2)"]
-Node3_1 [style=filled, color="#FFFF00" label = "पादपान्(3.1)"]
+Node3_1 [style=filled, color="#93DB70" label = "पादपान्(3.1)"]
 Node5_1 [style=filled, color="#00BFFF" label = "उद्वहन्(5.1)"]
 Node4_1 [style=filled, color="#FFFF00" label = "पुष्प-(4.1)"]
 Node4_2 [style=filled, color="#93DB70" label = "शालिनः(4.2)"]

@@ -162,7 +162,7 @@
 <!-- Node10_2 -->
 <g id="node13" class="node">
 <title>Node10_2</title>
-<ellipse fill="lightgrey" stroke="black" cx="1256.79" cy="-192" rx="130.78" ry="18"/>
+<ellipse fill="#87ceeb" stroke="#87ceeb" cx="1256.79" cy="-192" rx="130.78" ry="18"/>
 <text text-anchor="middle" x="1256.79" y="-188.3" font-family="Times,serif" font-size="14.00">द्विविदयोः(10.2)</text>
 </g>
 <!-- Node10_1&#45;&gt;Node10_2 -->

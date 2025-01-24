@@ -26,7 +26,7 @@ Node5_2 [style=filled, color="#87CEEB" label = "कपेः(5.2)"]
 Node6_1 [style=filled, color="#00BFFF" label = "प्रसिद्धा(6.1)"]
 Node [style=filled, color="" label = "()"]
 Node10_1 [style=filled, color="#FFFF00" label = "मैन्द-(10.1)"]
-Node10_2 [style=filled, color="" label = "द्विविदयोः(10.2)"]
+Node10_2 [style=filled, color="#87CEEB" label = "द्विविदयोः(10.2)"]
 Node11_1 [style=filled, color="#FF99FF" label = "अपि(11.1)"]
 /* Start of Relations section */
 

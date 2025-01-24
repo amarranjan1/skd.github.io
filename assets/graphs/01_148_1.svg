@@ -106,7 +106,7 @@
 <!-- Node6_2 -->
 <g id="node9" class="node">
 <title>Node6_2</title>
-<ellipse fill="lightgrey" stroke="black" cx="510.59" cy="-105" rx="100.18" ry="18"/>
+<ellipse fill="#ffff00" stroke="#ffff00" cx="510.59" cy="-105" rx="100.18" ry="18"/>
 <text text-anchor="middle" x="510.59" y="-101.3" font-family="Times,serif" font-size="14.00">क्लिष्ट&#45;(6.2)</text>
 </g>
 <!-- Node6_1&#45;&gt;Node6_2 -->

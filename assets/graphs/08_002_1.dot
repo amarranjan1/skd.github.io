@@ -1,0 +1,74 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node1_1 [style=filled, color="#00BFFF" label = "तत्(1.1)"]
+Node2_3 [style=filled, color="#00BFFF" label = "कृत्रिमम्(2.3)"]
+
+}
+
+subgraph cluster_2{
+Node2_3 [style=filled, color="#00BFFF" label = "कृत्रिमम्(2.3)"]
+Node3_1 [style=filled, color="#00BFFF" label = "कृतम्(3.1)"]
+
+}
+
+subgraph cluster_3{
+Node3_1 [style=filled, color="#00BFFF" label = "कृतम्(3.1)"]
+Node14_1 [style=filled, color="#00BFFF" label = "लक्ष्म(14.1)"]
+Node11_1 [style=filled, color="#00BFFF" label = "प्रतिष्ठितम्(11.1)"]
+
+}
+
+subgraph cluster_4{
+Node9_1 [style=filled, color="#C6E2EB" label = "गते(9.1)"]
+Node10_2 [style=filled, color="#C6E2EB" label = "पथे(10.2)"]
+
+}
+
+subgraph cluster_5{
+Node15_1 [style=filled, color="#00BFFF" label = "तत्(15.1)"]
+Node12_1 [style=filled, color="#FF1975" label = "व्यराजत(12.1)"]
+
+}
+Node2_1 [style=filled, color="#FFFF00" label = "अप्रमेय-(2.1)"]
+Node2_2 [style=filled, color="#FFFF00" label = "प्रतिकार-(2.2)"]
+Node2_3 [style=filled, color="#00BFFF" label = "कृत्रिमम्(2.3)"]
+Node4_1 [style=filled, color="#FF99FF" label = "स्वयम्(4.1)"]
+Node7_1 [style=filled, color="#40E0D0" label = "विश्वकर्मणा(7.1)"]
+Node5_1 [style=filled, color="#00BFFF" label = "साधु(5.1)"]
+Node3_1 [style=filled, color="#00BFFF" label = "कृतम्(3.1)"]
+Node6_1 [style=filled, color="#FF99FF" label = "इति(6.1)"]
+Node8_1 [style=filled, color="#93DB70" label = "दिवम्(8.1)"]
+Node9_1 [style=filled, color="#C6E2EB" label = "गते(9.1)"]
+Node10_1 [style=filled, color="#FFFF00" label = "वायु-(10.1)"]
+Node10_2 [style=filled, color="#C6E2EB" label = "पथे(10.2)"]
+Node11_1 [style=filled, color="#00BFFF" label = "प्रतिष्ठितम्(11.1)"]
+Node12_1 [style=filled, color="#FF1975" label = "व्यराजत(12.1)"]
+Node [style=filled, color="" label = "()"]
+Node13_1 [style=filled, color="#FFFF00" label = "आदित्य-(13.1)"]
+Node13_2 [style=filled, color="#87CEEB" label = "पथस्य(13.2)"]
+Node14_1 [style=filled, color="#00BFFF" label = "लक्ष्म(14.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node2_3 [  label="विशेषणम्"  dir="back" ]
+Node2_1 -> Node2_2 [  label="कर्मधारयः"  dir="back" ]
+Node2_2 -> Node2_3 [  label="तृतीया_तत्पुरुषः"  dir="back" ]
+Node2_3 -> Node3_1 [  label="विशेषणम्"  dir="back" ]
+Node3_1 -> Node14_1 [  label="विशेषणम्"  dir="back" ]
+Node4_1 -> Node7_1 [  label="सम्बन्धः"  dir="back" ]
+Node5_1 -> Node3_1 [  label="सम्बन्धः"  dir="back" ]
+Node6_1 -> Node3_1 [  label="सम्बन्धः"  dir="back" ]
+Node7_1 -> Node3_1 [  label="कर्ता"  dir="back" ]
+Node8_1 -> Node9_1 [  label="कर्म"  dir="back" ]
+Node9_1 -> Node10_2 [  label="विशेषणम्"  dir="back" ]
+Node10_1 -> Node10_2 [  label="षष्ठी_तत्पुरुषः"  dir="back" ]
+Node10_2 -> Node11_1 [  label="देशाधिकरणम्"  dir="back" ]
+Node11_1 -> Node14_1 [  label="विशेषणम्"  dir="back" ]
+Node13_1 -> Node13_2 [  label="षष्ठी_तत्पुरुषः"  dir="back" ]
+Node13_2 -> Node14_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node14_1 -> Node12_1 [  label="कर्ता"  dir="back" ]
+Node15_1 -> Node12_1 [  label="विशेषणम्"  dir="back" ]
+}

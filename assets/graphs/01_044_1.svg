@@ -26,7 +26,7 @@
 <!-- Node3_1 -->
 <g id="node2" class="node">
 <title>Node3_1</title>
-<ellipse fill="#ffff00" stroke="#ffff00" cx="639" cy="-192" rx="96.68" ry="18"/>
+<ellipse fill="#93db70" stroke="#93db70" cx="639" cy="-192" rx="96.68" ry="18"/>
 <text text-anchor="middle" x="639" y="-188.3" font-family="Times,serif" font-size="14.00">पादपान्(3.1)</text>
 </g>
 <!-- Node2_2&#45;&gt;Node3_1 -->
@@ -110,8 +110,8 @@
 <!-- Node2_1 -->
 <g id="node8" class="node">
 <title>Node2_1</title>
-<ellipse fill="#ffff00" stroke="#ffff00" cx="639" cy="-18" rx="69.59" ry="18"/>
-<text text-anchor="middle" x="639" y="-14.3" font-family="Times,serif" font-size="14.00">मत्त(2.1)</text>
+<ellipse fill="#ffff00" stroke="#ffff00" cx="639" cy="-18" rx="72.29" ry="18"/>
+<text text-anchor="middle" x="639" y="-14.3" font-family="Times,serif" font-size="14.00">मत्त&#45;(2.1)</text>
 </g>
 <!-- Node2_1&#45;&gt;Node2_2 -->
 <g id="edge2" class="edge">

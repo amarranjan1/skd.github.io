@@ -16,7 +16,13 @@ Node6_1 [style=filled, color="#00BFFF" label = "पर्वतः(6.1)"]
 }
 
 subgraph cluster_3{
-Node10_1 [style=filled, color="#FF99FF" label = "मत्तः(10.1)"]
+Node9_1 [style=filled, color="#93DB70" label = "मदम्(9.1)"]
+Node7_1 [style=filled, color="#93DB70" label = "सलिलम्(7.1)"]
+
+}
+
+subgraph cluster_4{
+Node10_1 [style=filled, color="#00BFFF" label = "मत्तः(10.1)"]
 Node12_1 [style=filled, color="#00BFFF" label = "द्विपः(12.1)"]
 
 }
@@ -29,8 +35,6 @@ Node8_1 [style=filled, color="#FF1975" label = "सम्प्रसुस्�
 Node6_1 [style=filled, color="#00BFFF" label = "पर्वतः(6.1)"]
 Node7_1 [style=filled, color="#93DB70" label = "सलिलम्(7.1)"]
 Node [style=filled, color="" label = "()"]
-Node9_1 [style=filled, color="#00BFFF" label = "मदम्(9.1)"]
-Node13_1 [style=filled, color="" label = ""]
 Node11_1 [style=filled, color="#FF99FF" label = "इव(11.1)"]
 Node12_1 [style=filled, color="#00BFFF" label = "द्विपः(12.1)"]
 /* Start of Relations section */
@@ -43,7 +47,7 @@ Node4_1 -> Node8_1 [  label="वर्तमानसमानकालः"  dir
 Node5_1 -> Node6_1 [  label="विशेषणम्"  dir="back" ]
 Node6_1 -> Node8_1 [  label="कर्ता"  dir="back" ]
 Node7_1 -> Node8_1 [  label="कर्म"  dir="back" ]
-Node9_1 -> Node13_1 [  label="कर्म"  dir="back" ]
+Node9_1 -> Node7_1 [  label="विशेषणम्"  dir="back" ]
 Node10_1 -> Node12_1 [  label="विशेषणम्"  dir="back" ]
 Node11_1 -> Node6_1 [  label="उपमान_द्योतकः"  dir="back" ]
 Node12_1 -> Node6_1 [  label="उपमानम्"  dir="back" ]
