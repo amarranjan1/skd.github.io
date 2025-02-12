@@ -1,0 +1,44 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node1_1 [style=filled, color="#87CEEB" label = "तस्य(1.1)"]
+Node2_1 [style=filled, color="#87CEEB" label = "हर्म्यस्य(2.1)"]
+
+}
+
+subgraph cluster_2{
+Node5_1 [style=filled, color="#93DB70" label = "अन्यत्(5.1)"]
+Node3_2 [style=filled, color="#93DB70" label = "वेश्म(3.2)"]
+Node6_1 [style=filled, color="#93DB70" label = "सुनिर्मितम्(6.1)"]
+Node7_3 [style=filled, color="#93DB70" label = "संयुक्तम्(7.3)"]
+
+}
+Node2_1 [style=filled, color="#87CEEB" label = "हर्म्यस्य(2.1)"]
+Node3_2 [style=filled, color="#93DB70" label = "वेश्म(3.2)"]
+Node3_1 [style=filled, color="#FFFF00" label = "मध्यस्थ-(3.1)"]
+Node8_1 [style=filled, color="#FF1975" label = "ददर्श(8.1)"]
+Node4_1 [style=filled, color="#FF99FF" label = "च(4.1)"]
+Node7_1 [style=filled, color="#FFFF00" label = "बहु-(7.1)"]
+Node7_2 [style=filled, color="#FFFF00" label = "निर्यूह-(7.2)"]
+Node7_3 [style=filled, color="#93DB70" label = "संयुक्तम्(7.3)"]
+Node [style=filled, color="" label = "()"]
+Node9_1 [style=filled, color="#FFFF00" label = "पवन-(9.1)"]
+Node9_2 [style=filled, color="#00BFFF" label = "आत्मजः(9.2)"]
+/* Start of Relations section */
+
+Node1_1 -> Node2_1 [  label="विशेषणम्"  dir="back" ]
+Node2_1 -> Node3_2 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node3_1 -> Node3_2 [  label="कर्मधारयः"  dir="back" ]
+Node3_2 -> Node8_1 [  label="कर्म"  dir="back" ]
+Node4_1 -> Node8_1 [  label="सम्बन्धः"  dir="back" ]
+Node5_1 -> Node3_2 [  label="विशेषणम्"  dir="back" ]
+Node6_1 -> Node3_2 [  label="विशेषणम्"  dir="back" ]
+Node7_1 -> Node7_2 [  label="बहुव्रीहिः"  dir="back" ]
+Node7_2 -> Node7_3 [  label="तृतीया_तत्पुरुषः"  dir="back" ]
+Node7_3 -> Node3_2 [  label="विशेषणम्"  dir="back" ]
+Node9_1 -> Node9_2 [  label="षष्ठी_तत्पुरुषः"  dir="back" ]
+Node9_2 -> Node8_1 [  label="कर्ता"  dir="back" ]
+}

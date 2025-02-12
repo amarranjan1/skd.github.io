@@ -1,0 +1,45 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node3_1 [style=filled, color="#93DB70" label = "ताः(3.1)"]
+Node4_1 [style=filled, color="#93DB70" label = "स्त्रियः(4.1)"]
+Node5_2 [style=filled, color="#93DB70" label = "प्रभाः(5.2)"]
+
+}
+
+subgraph cluster_2{
+Node6_1 [style=filled, color="#00BFFF" label = "ज्वलन्तः(6.1)"]
+Node8_1 [style=filled, color="#00BFFF" label = "दीपाः(8.1)"]
+Node7_1 [style=filled, color="#00BFFF" label = "काञ्चनाः(7.1)"]
+Node10_1 [style=filled, color="#00BFFF" label = "अनिमिषाः(10.1)"]
+
+}
+Node1_1 [style=filled, color="#C6E2EB" label = "रावणे(1.1)"]
+Node2_2 [style=filled, color="#C6E2EB" label = "संविष्टे(2.2)"]
+Node2_1 [style=filled, color="#FFFF00" label = "सुख-(2.1)"]
+Node9_1 [style=filled, color="#FF1975" label = "प्रैक्षन्त(9.1)"]
+Node4_1 [style=filled, color="#93DB70" label = "स्त्रियः(4.1)"]
+Node5_1 [style=filled, color="#FFFF00" label = "विविध-(5.1)"]
+Node5_2 [style=filled, color="#93DB70" label = "प्रभाः(5.2)"]
+Node8_1 [style=filled, color="#00BFFF" label = "दीपाः(8.1)"]
+Node [style=filled, color="" label = "()"]
+Node11_1 [style=filled, color="#FF99FF" label = "इव(11.1)"]
+Node10_1 [style=filled, color="#00BFFF" label = "अनिमिषाः(10.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node2_2 [  label="कर्ता"  dir="back" ]
+Node2_1 -> Node2_2 [  label="तृतीया_तत्पुरुषः"  dir="back" ]
+Node2_2 -> Node9_1 [  label="भावलक्षणसप्तमी_पूर्वकालः"  dir="back" ]
+Node3_1 -> Node4_1 [  label="विशेषणम्"  dir="back" ]
+Node4_1 -> Node9_1 [  label="कर्म"  dir="back" ]
+Node5_1 -> Node5_2 [  label="बहुव्रीहिः"  dir="back" ]
+Node5_2 -> Node4_1 [  label="विशेषणम्"  dir="back" ]
+Node6_1 -> Node8_1 [  label="विशेषणम्"  dir="back" ]
+Node7_1 -> Node8_1 [  label="विशेषणम्"  dir="back" ]
+Node8_1 -> Node9_1 [  label="कर्ता"  dir="back" ]
+Node10_1 -> Node8_1 [  label="विशेषणम्"  dir="back" ]
+Node11_1 -> Node10_1 [  label="सम्बन्धः"  dir="back" ]
+}

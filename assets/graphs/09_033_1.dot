@@ -1,0 +1,43 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node3_2 [style=filled, color="#93DB70" label = "आसीनम्(3.2)"]
+Node6_1 [style=filled, color="#93DB70" label = "सहस्रम्(6.1)"]
+Node5_3 [style=filled, color="#93DB70" label = "स्रजम्(5.3)"]
+Node8_3 [style=filled, color="#93DB70" label = "विभूषितम्(8.3)"]
+
+}
+Node1_1 [style=filled, color="#FF99FF" label = "ततः(1.1)"]
+Node2_1 [style=filled, color="#FF1975" label = "अपश्यत्(2.1)"]
+Node [style=filled, color="" label = "()"]
+Node3_1 [style=filled, color="#FFFF00" label = "कुथ-(3.1)"]
+Node3_2 [style=filled, color="#93DB70" label = "आसीनम्(3.2)"]
+Node4_1 [style=filled, color="#FF99FF" label = "नाना(4.1)"]
+Node5_3 [style=filled, color="#93DB70" label = "स्रजम्(5.3)"]
+Node5_1 [style=filled, color="#FFFF00" label = "वर्ण-(5.1)"]
+Node5_2 [style=filled, color="#FFFF00" label = "अम्बर-(5.2)"]
+Node6_1 [style=filled, color="#93DB70" label = "सहस्रम्(6.1)"]
+Node7_1 [style=filled, color="#FFFF00" label = "वर-(7.1)"]
+Node7_2 [style=filled, color="#87CEEB" label = "नारीणाम्(7.2)"]
+Node8_1 [style=filled, color="#FFFF00" label = "नाना-(8.1)"]
+Node8_2 [style=filled, color="#FFFF00" label = "वेष-(8.2)"]
+Node8_3 [style=filled, color="#93DB70" label = "विभूषितम्(8.3)"]
+/* Start of Relations section */
+
+Node1_1 -> Node2_1 [  label="कालाधिकरणम्"  dir="back" ]
+Node3_1 -> Node3_2 [  label="सप्तमी_तत्पुरुषः"  dir="back" ]
+Node3_2 -> Node6_1 [  label="विशेषणम्"  dir="back" ]
+Node4_1 -> Node5_3 [  label="सम्बन्धः"  dir="back" ]
+Node5_1 -> Node5_3 [  label="बहुव्रीहिः"  dir="back" ]
+Node5_2 -> Node5_3 [  label="द्वन्द्वः"  dir="back" ]
+Node5_3 -> Node6_1 [  label="विशेषणम्"  dir="back" ]
+Node6_1 -> Node2_1 [  label="कर्म"  dir="back" ]
+Node7_1 -> Node7_2 [  label="कर्मधारयः"  dir="back" ]
+Node7_2 -> Node6_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node8_1 -> Node8_2 [  label="बहुव्रीहिः"  dir="back" ]
+Node8_2 -> Node8_3 [  label="तृतीया_तत्पुरुषः"  dir="back" ]
+Node8_3 -> Node6_1 [  label="विशेषणम्"  dir="back" ]
+}

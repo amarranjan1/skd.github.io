@@ -1,0 +1,52 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node3_1 [style=filled, color="#00BFFF" label = "ग्रथिता(3.1)"]
+Node2_2 [style=filled, color="#00BFFF" label = "माला(2.2)"]
+Node5_1 [style=filled, color="#00BFFF" label = "सा(5.1)"]
+
+}
+
+subgraph cluster_2{
+Node8_1 [style=filled, color="#00BFFF" label = "ग्रथिता(8.1)"]
+Node6_1 [style=filled, color="#00BFFF" label = "माला(6.1)"]
+Node11_3 [style=filled, color="#00BFFF" label = "पदा(11.3)"]
+
+}
+Node1_1 [style=filled, color="#FFFF00" label = "अन्योन्य-(1.1)"]
+Node1_2 [style=filled, color="#FFFF00" label = "भुज-(1.2)"]
+Node1_3 [style=filled, color="#40E0D0" label = "सूत्रेण(1.3)"]
+Node3_1 [style=filled, color="#00BFFF" label = "ग्रथिता(3.1)"]
+Node2_1 [style=filled, color="#FFFF00" label = "स्त्री-(2.1)"]
+Node2_2 [style=filled, color="#00BFFF" label = "माला(2.2)"]
+Node10_1 [style=filled, color="#FF1975" label = "शुशुभे(10.1)"]
+Node4_1 [style=filled, color="#FF99FF" label = "हि(4.1)"]
+Node6_1 [style=filled, color="#00BFFF" label = "माला(6.1)"]
+Node7_1 [style=filled, color="#FF99FF" label = "इव(7.1)"]
+Node9_1 [style=filled, color="#C6E2EB" label = "सूत्रे(9.1)"]
+Node8_1 [style=filled, color="#00BFFF" label = "ग्रथिता(8.1)"]
+Node [style=filled, color="" label = "()"]
+Node11_1 [style=filled, color="#FFFF00" label = "मत्त-(11.1)"]
+Node11_3 [style=filled, color="#00BFFF" label = "पदा(11.3)"]
+Node11_2 [style=filled, color="#FFFF00" label = "षट्-(11.2)"]
+/* Start of Relations section */
+
+Node1_1 -> Node1_2 [  label="बहुव्रीहिः"  dir="back" ]
+Node1_2 -> Node1_3 [  label="षष्ठी_तत्पुरुषः"  dir="back" ]
+Node1_3 -> Node3_1 [  label="करणम्"  dir="back" ]
+Node2_1 -> Node2_2 [  label="षष्ठी_तत्पुरुषः"  dir="back" ]
+Node2_2 -> Node10_1 [  label="कर्ता"  dir="back" ]
+Node3_1 -> Node2_2 [  label="विशेषणम्"  dir="back" ]
+Node4_1 -> Node10_1 [  label="सम्बन्धः"  dir="back" ]
+Node5_1 -> Node2_2 [  label="विशेषणम्"  dir="back" ]
+Node6_1 -> Node2_2 [  label="उपमानम्"  dir="back" ]
+Node7_1 -> Node6_1 [  label="उपमान_द्योतकः"  dir="back" ]
+Node8_1 -> Node6_1 [  label="विशेषणम्"  dir="back" ]
+Node9_1 -> Node8_1 [  label="अधिकरणम्"  dir="back" ]
+Node11_1 -> Node11_3 [  label="बहुव्रीहिः"  dir="back" ]
+Node11_2 -> Node11_3 [  label="बहुव्रीहिः"  dir="back" ]
+Node11_3 -> Node6_1 [  label="विशेषणम्"  dir="back" ]
+}
