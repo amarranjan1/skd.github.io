@@ -1,0 +1,48 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node6_2 [style=filled, color="#40E0D0" label = "रूपेण(6.2)"]
+Node7_1 [style=filled, color="#40E0D0" label = "रक्षसा(7.1)"]
+
+}
+
+subgraph cluster_2{
+Node8_1 [style=filled, color="#00BFFF" label = "[कृतम्](8.1)"]
+Node10_1 [style=filled, color="#93DB70" label = "वधम्(10.1)"]
+Node9_1 [style=filled, color="#00BFFF" label = "महत्(9.1)"]
+
+}
+Node1_1 [style=filled, color="#00BFFF" label = "अङ्गदः(1.1)"]
+Node13_1 [style=filled, color="#FF1975" label = "अकथयत्(13.1)"]
+Node2_1 [style=filled, color="#87CEEB" label = "तस्य(2.1)"]
+Node10_1 [style=filled, color="#93DB70" label = "वधम्(10.1)"]
+Node3_1 [style=filled, color="#FFFF00" label = "जन-(3.1)"]
+Node3_2 [style=filled, color="#C6E2EB" label = "स्थाने(3.2)"]
+Node4_1 [style=filled, color="#93DB70" label = "त्वाम्(4.1)"]
+Node5_1 [style=filled, color="#FF99FF" label = "उद्दिश्य(5.1)"]
+Node8_1 [style=filled, color="#00BFFF" label = "[कृतम्](8.1)"]
+Node6_1 [style=filled, color="#FFFF00" label = "भीम-(6.1)"]
+Node6_2 [style=filled, color="#40E0D0" label = "रूपेण(6.2)"]
+Node7_1 [style=filled, color="#40E0D0" label = "रक्षसा(7.1)"]
+Node11_1 [style=filled, color="#FF99FF" label = "[इति](11.1)"]
+Node12_1 [style=filled, color="#FF99FF" label = "यथार्थतः(12.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node13_1 [  label="कर्ता"  dir="back" ]
+Node2_1 -> Node10_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node3_1 -> Node3_2 [  label="षष्ठी-तत्पुरुषः"  dir="back" ]
+Node3_2 -> Node13_1 [  label="अधिकरणम्"  dir="back" ]
+Node4_1 -> Node5_1 [  label="कर्म"  dir="back" ]
+Node5_1 -> Node8_1 [  label="प्रयोजनम्"  dir="back" ]
+Node6_1 -> Node6_2 [  label="बहुव्रीहिः"  dir="back" ]
+Node6_2 -> Node7_1 [  label="विशेषणम्"  dir="back" ]
+Node7_1 -> Node8_1 [  label="कर्ता"  dir="back" ]
+Node8_1 -> Node10_1 [  label="विशेषणम्"  dir="back" ]
+Node9_1 -> Node10_1 [  label="विशेषणम्"  dir="back" ]
+Node10_1 -> Node13_1 [  label="वाक्यकर्म"  dir="back" ]
+Node11_1 -> Node13_1 [  label="वाक्यकर्म_द्योतकः"  dir="back" ]
+Node12_1 -> Node13_1 [  label="अपादानम्"  dir="back" ]
+}
