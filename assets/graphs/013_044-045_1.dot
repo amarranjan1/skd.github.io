@@ -1,0 +1,72 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node6_1 [style=filled, color="#93DB70" label = "ताम्(6.1)"]
+Node4_1 [style=filled, color="#93DB70" label = "सीताम्(4.1)"]
+
+}
+
+subgraph cluster_2{
+Node9_1 [style=filled, color="#40E0D0" label = "सर्वैः(9.1)"]
+Node10_1 [style=filled, color="#40E0D0" label = "वानरैः(10.1)"]
+
+}
+
+subgraph cluster_3{
+Node14_1 [style=filled, color="#00BFFF" label = "बहवः(14.1)"]
+Node15_1 [style=filled, color="#00BFFF" label = "दोषाः(15.1)"]
+
+}
+
+subgraph cluster_4{
+Node22_1 [style=filled, color="#00BFFF" label = "ध्रुवः(22.1)"]
+Node24_1 [style=filled, color="#00BFFF" label = "सङ्गमः(24.1)"]
+
+}
+Node1_1 [style=filled, color="#FF99FF" label = "यदि(1.1)"]
+Node3_1 [style=filled, color="#FF1975" label = "प्रतिगच्छामि(3.1)"]
+Node2_1 [style=filled, color="#FF99FF" label = "तु(2.1)"]
+Node [style=filled, color="" label = "()"]
+Node4_1 [style=filled, color="#93DB70" label = "सीताम्(4.1)"]
+Node5_1 [style=filled, color="#FF99FF" label = "अनधिगम्य(5.1)"]
+Node7_1 [style=filled, color="#00BFFF" label = "अङ्गदः(7.1)"]
+Node12_1 [style=filled, color="#FF1975" label = "भविष्यति(12.1)"]
+Node8_1 [style=filled, color="#00BFFF" label = "सहितः(8.1)"]
+Node10_1 [style=filled, color="#40E0D0" label = "वानरैः(10.1)"]
+Node11_1 [style=filled, color="#FF99FF" label = "न(11.1)"]
+Node13_1 [style=filled, color="#C6E2EB" label = "विनाशे(13.1)"]
+Node16_1 [style=filled, color="#00BFFF" label = "जीवन्(16.1)"]
+Node15_1 [style=filled, color="#00BFFF" label = "दोषाः(15.1)"]
+Node17_1 [style=filled, color="#FF1975" label = "प्राप्नोति(17.1)"]
+Node18_1 [style=filled, color="#93DB70" label = "भद्रकम्(18.1)"]
+Node19_1 [style=filled, color="#B4FFB4" label = "तस्मात्(19.1)"]
+Node21_1 [style=filled, color="#FF1975" label = "धरिष्यामि(21.1)"]
+Node20_1 [style=filled, color="#93DB70" label = "प्राणान्(20.1)"]
+Node23_1 [style=filled, color="#C6E2EB" label = "जीवति(23.1)"]
+Node24_1 [style=filled, color="#00BFFF" label = "सङ्गमः(24.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node3_1 [  label="सम्बन्धः"  dir="back" ]
+Node2_1 -> Node3_1 [  label="सम्बन्धः"  dir="back" ]
+Node4_1 -> Node5_1 [  label="कर्म"  dir="back" ]
+Node5_1 -> Node3_1 [  label="पूर्वकालः"  dir="back" ]
+Node6_1 -> Node4_1 [  label="विशेषणम्"  dir="back" ]
+Node7_1 -> Node12_1 [  label="कर्ता"  dir="back" ]
+Node8_1 -> Node7_1 [  label="सहार्थ_द्योतकः"  dir="back" ]
+Node9_1 -> Node10_1 [  label="विशेषणम्"  dir="back" ]
+Node10_1 -> Node7_1 [  label="सहार्थः"  dir="back" ]
+Node11_1 -> Node12_1 [  label="प्रतिषेधः"  dir="back" ]
+Node13_1 -> Node16_1 [  label="भावलक्षणसप्तमी"  dir="back" ]
+Node14_1 -> Node15_1 [  label="विशेषणम्"  dir="back" ]
+Node15_1 -> Node17_1 [  label="कर्तृसमानाधिकरणम्"  dir="back" ]
+Node16_1 -> Node17_1 [  label="वर्तमानसमानकालः"  dir="back" ]
+Node18_1 -> Node17_1 [  label="कर्म"  dir="back" ]
+Node19_1 -> Node21_1 [  label="हेतुः5"  dir="back" ]
+Node20_1 -> Node21_1 [  label="कर्म"  dir="back" ]
+Node22_1 -> Node24_1 [  label="विशेषणम्"  dir="back" ]
+Node23_1 -> Node21_1 [  label="भावलक्षणसप्तमी"  dir="back" ]
+Node24_1 -> Node17_1 [  label="कर्ता"  dir="back" ]
+}
