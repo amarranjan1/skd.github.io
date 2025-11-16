@@ -1,0 +1,57 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node5_2 [style=filled, color="#00BFFF" label = "आत्मा(5.2)"]
+Node4_1 [style=filled, color="#00BFFF" label = "हनुमान्(4.1)"]
+Node14_1 [style=filled, color="#00BFFF" label = "निलीनः(14.1)"]
+
+}
+
+subgraph cluster_2{
+Node13_2 [style=filled, color="#C6E2EB" label = "घने(13.2)"]
+Node12_1 [style=filled, color="#C6E2EB" label = "सुपुष्पिते(12.1)"]
+
+}
+Node1_1 [style=filled, color="#FF99FF" label = "एवम्(1.1)"]
+Node3_1 [style=filled, color="#FF99FF" label = "मत्वा(3.1)"]
+Node2_1 [style=filled, color="#FF99FF" label = "तु(2.1)"]
+Node10_1 [style=filled, color="#FF1975" label = "ददर्श(10.1)"]
+Node4_1 [style=filled, color="#00BFFF" label = "हनुमान्(4.1)"]
+Node5_1 [style=filled, color="#FFFF00" label = "महा-(5.1)"]
+Node5_2 [style=filled, color="#00BFFF" label = "आत्मा(5.2)"]
+Node6_1 [style=filled, color="#00BFFF" label = "प्रतीक्षमाणः(6.1)"]
+Node7_1 [style=filled, color="#FFFF00" label = "मनुज-(7.1)"]
+Node7_2 [style=filled, color="#FFFF00" label = "इन्द्र-(7.2)"]
+Node7_3 [style=filled, color="#93DB70" label = "पत्नीम्(7.3)"]
+Node8_1 [style=filled, color="#00BFFF" label = "अवेक्षमाणः(8.1)"]
+Node9_1 [style=filled, color="#FF99FF" label = "च(9.1)"]
+Node [style=filled, color="" label = "()"]
+Node11_1 [style=filled, color="#93DB70" label = "सर्वम्(11.1)"]
+Node12_1 [style=filled, color="#C6E2EB" label = "सुपुष्पिते(12.1)"]
+Node14_1 [style=filled, color="#00BFFF" label = "निलीनः(14.1)"]
+Node13_1 [style=filled, color="#FFFF00" label = "पर्ण-(13.1)"]
+Node13_2 [style=filled, color="#C6E2EB" label = "घने(13.2)"]
+/* Start of Relations section */
+
+Node1_1 -> Node3_1 [  label="क्रियाविशेषणम्"  dir="back" ]
+Node2_1 -> Node3_1 [  label="सम्बन्धः"  dir="back" ]
+Node3_1 -> Node10_1 [  label="पूर्वकालः"  dir="back" ]
+Node4_1 -> Node10_1 [  label="कर्ता"  dir="back" ]
+Node5_1 -> Node5_2 [  label="बहुव्रीहिः"  dir="back" ]
+Node5_2 -> Node4_1 [  label="विशेषणम्"  dir="back" ]
+Node6_1 -> Node10_1 [  label="वर्तमानसमानकालः"  dir="back" ]
+Node7_1 -> Node7_2 [  label="षष्ठी_तत्पुरुषः"  dir="back" ]
+Node7_2 -> Node7_2 [  label="षष्ठी_तत्पुरुषः"  dir="back" ]
+Node7_3 -> Node6_1 [  label="कर्म"  dir="back" ]
+Node7_3 -> Node8_1 [ style=dotted label="कर्म"  dir="back" ]
+Node8_1 -> Node10_1 [  label="वर्तमानसमानकालः"  dir="back" ]
+Node9_1 -> Node10_1 [  label="सम्बन्धः"  dir="back" ]
+Node11_1 -> Node10_1 [  label="कर्म"  dir="back" ]
+Node12_1 -> Node14_1 [  label="अधिकरणम्"  dir="back" ]
+Node13_1 -> Node13_2 [  label="बहुव्रीहिः"  dir="back" ]
+Node13_2 -> Node12_1 [  label="विशेषणम्"  dir="back" ]
+Node14_1 -> Node4_1 [  label="विशेषणम्"  dir="back" ]
+}
