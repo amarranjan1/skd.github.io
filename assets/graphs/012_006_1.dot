@@ -1,0 +1,44 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node3_1 [style=filled, color="#93DB70" label = "सर्वम्(3.1)"]
+Node2_2 [style=filled, color="#93DB70" label = "पुरम्(2.2)"]
+
+}
+
+subgraph cluster_2{
+Node9_1 [style=filled, color="#00BFFF" label = "साध्वी(9.1)"]
+Node7_1 [style=filled, color="#00BFFF" label = "सीता(7.1)"]
+
+}
+Node2_1 [style=filled, color="#FFFF00" label = "अन्तः-(2.1)"]
+Node2_2 [style=filled, color="#93DB70" label = "पुरम्(2.2)"]
+Node1_1 [style=filled, color="#93DB70" label = "दृष्टम्(1.1)"]
+Node5_1 [style=filled, color="#FFFF00" label = "रावण-(5.1)"]
+Node5_2 [style=filled, color="#93DB70" label = "योषितः(5.2)"]
+Node4_1 [style=filled, color="#00BFFF" label = "दृष्टाः(4.1)"]
+Node6_1 [style=filled, color="#FF99FF" label = "न(6.1)"]
+Node8_1 [style=filled, color="#FF1975" label = "दृश्यते(8.1)"]
+Node7_1 [style=filled, color="#00BFFF" label = "सीता(7.1)"]
+Node [style=filled, color="" label = "()"]
+Node10_1 [style=filled, color="#FF99FF" label = "वृथा(10.1)"]
+Node11_1 [style=filled, color="#00BFFF" label = "जातः(11.1)"]
+Node12_1 [style=filled, color="#87CEEB" label = "मम(12.1)"]
+Node13_1 [style=filled, color="#00BFFF" label = "श्रमः(13.1)"]
+/* Start of Relations section */
+
+Node2_1 -> Node2_2 [  label="कर्मधारयः"  dir="back" ]
+Node2_2 -> Node1_1 [  label="कर्म"  dir="back" ]
+Node3_1 -> Node2_2 [  label="विशेषणम्"  dir="back" ]
+Node5_1 -> Node5_2 [  label="षष्ठी_तत्पुरुषः"  dir="back" ]
+Node5_2 -> Node4_1 [  label="कर्म"  dir="back" ]
+Node6_1 -> Node8_1 [  label="प्रतिषेधः"  dir="back" ]
+Node7_1 -> Node8_1 [  label="कर्म"  dir="back" ]
+Node9_1 -> Node7_1 [  label="विशेषणम्"  dir="back" ]
+Node10_1 -> Node11_1 [  label="क्रियाविशेषणम्"  dir="back" ]
+Node12_1 -> Node13_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node13_1 -> Node11_1 [  label="कर्ता"  dir="back" ]
+}
